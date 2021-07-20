@@ -2,18 +2,18 @@
     display: flex;
     flex-direction: row;
     background-color: #1a2639;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: .7em 0 .7em 0;
 }
 .top-left {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
     color: aliceblue;
 }
 .top-left > * {
-    margin: 0 1em 0 1em;
+    font-size: 1em;
+    margin: 0 .5em 0 .5em;
     text-decoration: none;
     color: aliceblue;
 }
@@ -28,12 +28,11 @@
 .login > h3 {
     text-align: center;
 }
-
 .login > input {
+    width: fit-content;
     margin: .5em 0 .5em 0;
     width: 95%;
 }
-
 .login > button {
     margin: 1em 0 0 0;
     width: 5em;

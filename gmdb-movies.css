@@ -1,0 +1,21 @@
+main {
+    margin: 0 .5em 0 .5em;
+}
+.results {
+    display: flex;
+    flex-direction: row;
+    margin: .5em .5em .5em 0;
+    width: 100%;
+    background-color: #3e4a61;
+    color: goldenrod;
+    padding: .5em 0 .5em 0;
+}
+
+.results > p {
+    margin-left: 2em;
+    margin-bottom: 0;
+}
+
+.group-a {
+    
+}
