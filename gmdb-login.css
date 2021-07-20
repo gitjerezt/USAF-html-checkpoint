@@ -5,6 +5,11 @@
     justify-content: space-evenly;
     padding: .7em 0 .7em 0;
 }
+
+.search {
+    resize: horizontal;
+    width: 7em;
+}
 .top-left {
     display: flex;
     flex-direction: row;

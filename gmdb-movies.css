@@ -1,6 +1,10 @@
 main {
     margin: 0 .5em 0 .5em;
 }
+img {
+    width: 40%;
+    margin: 1em 1em 1em 1em;
+}
 .results {
     display: flex;
     flex-direction: row;
@@ -10,12 +14,16 @@ main {
     color: goldenrod;
     padding: .5em 0 .5em 0;
 }
-
 .results > p {
     margin-left: 2em;
     margin-bottom: 0;
 }
-
+.movies {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
 .group-a {
-    
+    justify-content: space-between;
+    align-items: center;
 }
