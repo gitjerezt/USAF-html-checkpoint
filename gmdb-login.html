@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </head>
 <body>
-    <navbar class="container row col-sm-12">
+    <navbar class="navbar container-fluid">
         <div class="top-left">
             <p>GMDB</p>
             <a href="gmdb-movies.html">Home</a>
@@ -16,18 +16,15 @@
             <button type="button" class="btn btn-small btn-outline-warning">Search</button>
         </div>
     </navbar>
-    <main>
-        <div class="login"></div>
-        <h3>Login</h3>
-        <label>Email:
+    <main class="container">
+        <div class="login col">
+            <h3>Login</h3>
+        <p><strong>Email:</strong></p>
             <input>
-        </label>
-        <label> Password:
-            <input>
-        </label>
+        <p><strong>Password:</strong></p>
+            <input type="password">
         <button type="button" class="btn btn-primary">Login</button>
-
-
+        </div>
     </main>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

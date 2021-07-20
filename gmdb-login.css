@@ -1,4 +1,4 @@
-navbar {
+.navbar {
     display: flex;
     flex-direction: row;
     background-color: #1a2639;
@@ -20,7 +20,21 @@ navbar {
 .top-right {
     align-items: center;
 }
-main {
+.login {
+    margin: 2em 0 0 0;
     display: flex;
     flex-direction: column;
+}
+.login > h3 {
+    text-align: center;
+}
+
+.login > input {
+    margin: .5em 0 .5em 0;
+    width: 95%;
+}
+
+.login > button {
+    margin: 1em 0 0 0;
+    width: 5em;
 }
